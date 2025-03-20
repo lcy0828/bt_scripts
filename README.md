@@ -12,7 +12,7 @@ curl  https://get.acme.sh | sh
 
 `acme.sh --install-cert -d luocaiyi.cn \`<br />`  --key-file       /www/cloud_waf/vhost/ssl/luocaiyi.cn/privkey.pem  \`<br />`  --fullchain-file /www/cloud_waf/vhost/ssl/luocaiyi.cn/fullchain.pem \`<br />`  --reloadcmd     "docker exec -it cloudwaf_nginx nginx -s reload"`
 
-![image](assets/image-20250320140008-62qxjqh.png)
+![1742450396744.png](https://img.luocaiyi.cn/i/own/2025/03/20/67dbaee05d9a4.png)
 
 ## 如何使用
 
@@ -20,4 +20,4 @@ curl  https://get.acme.sh | sh
 2. `chmod +x bt_ssl.sh`
 3. `bash bt_ssl.sh`
 4. all will be ok
-5. ![1742450100247.png](https://img.luocaiyi.cn/i/own/2025/03/20/67dbadb975abd.png)[https://img.luocaiyi.cn/i/own/2025/03/20/67dbadb975abd.png](https://img.luocaiyi.cn/i/own/2025/03/20/67dbadb975abd.png)
+5. ![1742450100247.png](https://img.luocaiyi.cn/i/own/2025/03/20/67dbadb975abd.png)<br />
