@@ -2,7 +2,7 @@
 
 安装 acme.sh
 
-`curl  https://get.acme.sh | sh`
+curl  https://get.acme.sh | sh
 
 ## 续签证书:
 
@@ -10,7 +10,7 @@
 
 ## 安装到证书夹
 
-`acme.sh --install-cert -d luocaiyi.cn `<br />`--key-file       /www/cloud_waf/vhost/ssl/luocaiyi.cn/privkey.pem  `<br />`--fullchain-file /www/cloud_waf/vhost/ssl/luocaiyi.cn/fullchain.pem `<br />`--reloadcmd     "docker exec -it cloudwaf_nginx nginx -s reload"`
+`acme.sh --install-cert -d luocaiyi.cn \`<br />`  --key-file       /www/cloud_waf/vhost/ssl/luocaiyi.cn/privkey.pem  \`<br />`  --fullchain-file /www/cloud_waf/vhost/ssl/luocaiyi.cn/fullchain.pem \`<br />`  --reloadcmd     "docker exec -it cloudwaf_nginx nginx -s reload"`
 
 ![image](assets/image-20250320140008-62qxjqh.png)
 
