@@ -10,7 +10,7 @@ curl  https://get.acme.sh | sh
 
 ## 安装到证书夹
 
-`acme.sh --install-cert -d luocaiyi.cn \`<br />`  --key-file       /www/cloud_waf/vhost/ssl/luocaiyi.cn/privkey.pem  \`<br />`  --fullchain-file /www/cloud_waf/vhost/ssl/luocaiyi.cn/fullchain.pem \`<br />`  --reloadcmd     "docker exec -it cloudwaf_nginx nginx -s reload"`
+`acme.sh --install-cert -d xxxxxx.cn \`<br />`  --key-file       /www/cloud_waf/vhost/ssl/xxxxxx.cn/privkey.pem  \`<br />`  --fullchain-file /www/cloud_waf/vhost/ssl/xxxxxx.cn/fullchain.pem \`<br />`  --reloadcmd     "docker exec -it cloudwaf_nginx nginx -s reload"`
 
 ![1742450396744.png](https://img.luocaiyi.cn/i/own/2025/03/20/67dbaee05d9a4.png)
 
